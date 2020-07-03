@@ -12,6 +12,9 @@ This app was built as an API to act as a go between between a client and a third
 
 ## Endpoints
 
+![](dealership.gif)
+
+
 * `/vehicle/<make>/models` - GET requests to this endpoint return all of the models from the given make.  This action gets a response from https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/{make}
 
 * `/vehicle/<make>/models/<year>` - GET requests to this endpoint return all of the models made within the given year by the given make.  This action gets a response from https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformakeyear/make/{make}/modelyear/{year}
